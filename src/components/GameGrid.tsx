@@ -13,7 +13,7 @@ const GameGrid = () => {
         padding="10px"
       >
         {games.map((g) => {
-          return <GameCard key={g.id} game={g}></GameCard>;
+          return <GameCard key={g.id} game={g} />;
         })}
       </SimpleGrid>
     </>
